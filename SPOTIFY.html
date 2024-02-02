@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+      body{
+        font-family: 'Poppins',sans-serif;
+      }
+    </style>
+  </head>
+
+<body>
+      <!-- Preloader -->
+      <div class="preloader">
+        <img src="new gif.gif" alt="" />
+      </div>
+
+      <!-- /* =========== Preloader =========== */ -->
+      <script>
+      const preloader = document.querySelector(".preloader");
+      window.addEventListener("load", () => {
+      setTimeout(() => {
+      preloader.style.display = "none";
+         }, 4700);
+});
+</script>
+
+    <div class="sidebar">
+      <div class="logo">
+        <a href="SPOTIFY.html">
+          <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png" alt="Logo" />
+        </a>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="home\home.html">
+              <span class="fa fa-home"></span>
+              <span>Home</span>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#">
+              <span class="fa fa-search"></span>
+              <span>Search</span>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="library\library.html">
+              <span class="fa fas fa-book"></span>
+              <span>Your Library</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="playlist\playlist.html">
+              <span class="fa fas fa-plus-square"></span>
+              <span>Create Playlist</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="liked songs\liked songs.html">
+              <span class="fa fas fa-heart"></span>
+              <span>Liked Songs</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="policies">
+        <ul>
+          <!-- <li>
+            <a href="#">Cookies</a>
+          </li> -->
+          <li>
+            <a href="privacy\privacy.html">Privacy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="topbar">
+        <div class="prev-next-buttons">
+          <button type="button" class="fa fas fa-chevron-left"></button>
+          <button type="button" class="fa fas fa-chevron-right"></button>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="premium\premium.html">Premium</a>
+            </li>
+            <li>
+              <a href="support\support.html">Support</a>
+            </li>
+            <!-- <li>
+              <a href="#">Download</a>
+            </li> -->
+            <li class="divider">|</li>
+            <li>
+              <a href="sign up.html">Sign Up</a>
+            </li>
+          </ul>
+          <button type="button" > <a href="login.html" style="text-decoration: none; font-family: 'Poppins',sans-serif; color:black"> Login</a></button>
+        </div>
+      </div>
+
+      <div class="spotify-playlists">
+        <h2>Bollywood mush</h2>
+
+        <div class="list">
+          <div class="item">
+            <img src="pathan.jpeg" />
+            <div class="play">
+            <a href="mp3\Pathaan.mp3" target="_blank">  <span class="fa fa-play"></span> 
+            </a>
+            </div>
+            <h4>Pathan</h4>
+            <p>Arjit singh</p>
+          </div>
+
+          <div class="item">
+            <img src="shershaah.jpeg" />
+            <div class="play">
+              <a href="mp3\Shershaah.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Shershaah</h4>
+            <p>New Music from Lil Baby, Juice WRLD an...</p>
+          </div>
+
+          <div class="item">
+            <img src="yjhd.jpeg" />
+            <div class="play">
+              <a href="mp3\Yeh Jawaani Hai Deewani.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Ye jawani hain diwani</h4>
+            <p>The biggest spmgs pf tje 2010s. Cover:...</p>
+          </div>
+
+          <div class="item">
+            <img src="kabirsingh.jpeg" />
+            <div class="play">
+              <a href="mp3\Pehla Pyaar - Kabir Singh 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>kabir singh</h4>
+            <p>Rock Legends & epic songs that continue t...</p>
+          </div>
+
+          <div class="item">
+            <img src="jab we met.jpeg" />
+            <div class="play">
+              <a href="mp3\Yeh Ishq Hai 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Jab we met</h4>
+            <p>Kick back to the best new and recent chill...</p>
+          </div>
+
+          <div class="item">
+            <img src="tamasha.jpeg" />
+            <div class="play">
+              <a href="mp3\Matargashti - Tamasha 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Tamasha</h4>
+            <p>Today's top Latin hits elevando nuestra...</p>
+          </div>
+
+      </div>
+
+      <div class="spotify-playlists">
+        <h2>Indian Hip-Hop</h2>
+        <div class="list">
+          <div class="item">
+            <img src="krsna.jpeg" />
+            <div class="play">
+              <a href="mp3\Villain(PagalWorld).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>KR$NA</h4>
+            <p>Relax and indulge with beautiful piano pieces</p>
+          </div>
+
+          <div class="item">
+            <img src="raftaar.jpeg" />
+            <div class="play">
+              <a href="mp3\Speed Se Badho Raftaar 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>RAFTAAR</h4>
+            <p>Keep calm and focus with ambient and pos...</p>
+          </div>
+
+          <div class="item">
+            <img src="mcstan.jpeg" />
+            <div class="play">
+              <a href="mp3\Basti Ka Hasti(PagalWorld.com.se).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>MC-STAN</h4>
+            <p>Focus with soft study music in the...</p>
+          </div>
+
+          <div class="item">
+            <img src="badshah.jpeg" />
+            <div class="play">
+              <a href="mp3\Jugnu Badshah 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>BADSHAH</h4>
+            <p>The perfect study beats, twenty four...</p>
+          </div>
+
+          <div class="item">
+            <img src="emiway.jpeg" />
+            <div class="play">
+              <a href="mp3\Out Of Sampark - Emiway Bantai 128 Kbps.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>EMIWAY-BANTAI</h4>
+            <p>Dedicated to all the programmers out there.</p>
+          </div>
+
+          <div class="item">
+            <img src="king.jpeg" />
+            <div class="play">
+              <a href="mp3\King - Sinner 128kbps(audiosong.in).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>KING</h4>
+            <p>Uptempo instrumental hip hop beats.</p>
+          </div>
+
+          <div class="item">
+            <img src="divine.jpeg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>DIVINE</h4>
+            <p>Calm before the storm music.</p>
+          </div>
+
+          <div class="item">
+            <img src="hustle.jpeg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>HUSTLE</h4>
+            <p>Focus with deep techno and tech house.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="spotify-playlists">
+        <h2>Our-Favourites 🤍</h2>
+        <div class="list">
+          <div class="item">
+            <img src="TUYOU.jpeg" />
+            <div class="play">
+              <a href=" mp3\Tu You(PagalWorld.com.se).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Tu/You</h4>
+            <p>Get happy with today's dose of feel-good...</p>
+          </div>
+
+          <div class="item">
+            <img src="BEFIKAR.jpeg" />
+            <div class="play">
+              <a href=" mp3\Befikar ft. Aashna Hegde-Tanzeel Khan-VlcMusic.CoM.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Befikar</h4>
+            <p>Feel good with this positively timeless...</p>
+          </div>
+
+          <div class="item">
+            <img src="AISE KYUN.jpeg" />
+            <div class="play">
+              <a href=" mp3\Aise-Kyun(PaglaSongs).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Aise Kyun</h4>
+            <p>Beautifully dark, dramatic tracks.</p>
+          </div>
+
+          <div class="item">
+            <img src="ankhon se batana.jpeg" />
+            <div class="play">
+              <a href=" mp3\Aankhon Se Batana(PagalWorld.com.se).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Ankhon Se Batana</h4>
+            <p>Happy vibes for an upbeat morning.</p>
+          </div>
+
+          <div class="item">
+            <img src="rang-lageya.jpeg" />
+            <div class="play">
+              <a href=" mp3\Rang Lageya Lofi_128-(PagalWorld.Ink).mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>Rang Lageya</h4>
+            <p>LOFI playlist that's a Calm mood...</p>
+          </div>
+
+          <div class="item">
+            <img src="o'meri laila.jpeg" />
+            <div class="play">
+              <a href=" mp3\O Meri Laila - Laila Majnu ! Atif Aslam ! Hindi Song.mp3" target="_blank">  <span class="fa fa-play">
+              </span> 
+              </a>
+            </div>
+            <h4>O'Meri Laila</h4>
+            <p>Softer kinda dance</p>
+          </div>
+
+          <div class="item">
+            <img src="CHAAND BALIYAN.jpeg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Chaand-Baaliyan</h4>
+            <p>The best indie rock vibes - classic and...</p>
+          </div>
+
+          <div class="item">
+            <img src="Kali Kali Zulfon Ke.jpeg" />
+            <div class="play">
+              <span class="fa fa-play"></span>
+            </div>
+            <h4>Kali Kali Zulfon Ke</h4>
+            <p>idk.</p>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+
+      <div class="preview">
+        <div class="text">
+          <h6>Preview of Spotify</h6>
+          <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+          <button type="button">
+            <a href=" sign up.html" style="text-decoration: none; font-family: 'Poppins',sans-serif; color:black;">
+            Sign up free</a></button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/23cecef777.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  </html>
